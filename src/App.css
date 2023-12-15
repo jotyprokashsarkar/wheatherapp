@@ -1,0 +1,117 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background: whitesmoke;
+}
+html{
+  font-size: 62.5%;
+}
+/* app start */
+.App{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width:700px;
+  box-shadow: 2px 2px 10px black, -2px -2px 10px gray;
+}
+
+/* navbar start */
+.header{
+  display: flex;
+  justify-content: space-between;
+  padding:  1rem;
+  background-color: black;
+  color: white;
+  font-size: 3rem;
+  border-bottom: 5px solid gray;
+}
+input{
+  font-size: 2rem;
+  border-radius: 1rem;
+  padding: 5px;
+}
+span{
+  color: red;
+  font-family: cursive;
+}
+/* navbar end */
+
+/* body start */
+.container{
+  background-repeat: no-repeat;
+  /* background-size: 100% 100%; */
+}
+.loadingImg img{
+  width: 700px;
+}
+.mainDetails{
+  padding: 1rem 2rem;
+  display: flex;
+  color: navy;
+  justify-content: space-between;
+}
+.timeDate{
+  margin: auto 0;
+  font-size: 4rem;
+  text-align: center;
+  padding: .4rem;
+}
+.tempCity{
+  margin: auto 0;
+  font-size: 4.5rem;
+  text-align: center;
+  padding: .4rem;
+}
+.weatherCond{
+  margin: auto 0;
+  font-size: 2.5rem;
+  text-align: center;
+  padding: .4rem;
+}
+
+.temp{
+  text-shadow: 1px 1px 2px white;
+  color: navy;
+}
+.otherDetails{
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5rem;
+  font-size: 2rem;
+  font-family: cursive;
+  color: navy;
+  text-shadow: 1px 1px 1px white;
+}
+button{
+  padding: 5px ;
+  font-size: 2rem;
+  width: 100%;
+  font-family: monospace;
+  color: gray;
+  background-color: lavender;
+}
+button:hover{
+  background-color: gray;
+  color: lavender;
+}
+.moreDetails{
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 5px 0px;
+}
+.moreDetails p{
+  padding: 10px;
+  margin: 6px;
+  font-family: cursive;
+  background-color: ghostwhite;
+  box-shadow: 2px 2px 2px gray;
+  border-radius: 5px;
+  font-size: 2rem;
+}
+/* body end */
+
+/* app end */

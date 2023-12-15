@@ -1,0 +1,42 @@
+@media only  screen and (max-width:700px){
+    .App{
+        width: 95%;
+    }
+    html{
+        font-size: 50%;
+    }
+    .loadingImg img{
+        width: 100%;
+      }
+}
+
+@media only  screen and (max-width:500px){
+    .mainDetails{
+        flex-direction: column-reverse;
+    }
+    .moreDetails{
+        grid-template-columns: 1fr 1fr;
+    }
+    .moreDetails p{
+        padding: 5px;
+        margin: 3px;
+        font-size: 2rem;
+    }
+    .header{
+        font-size: 2.5rem;
+    }
+}
+
+@media only  screen and (max-width:400px){
+    .header{
+        flex-direction: column;
+        text-align: center;
+    }
+    input{
+        font-size: 2rem;
+        padding: 5px;
+    }
+    .brandName{
+        font-size: 4.5rem;
+    }
+}
